@@ -1,10 +1,10 @@
-title: "Abstract Algebra"
+title: "Abstract Algebra - Graduate Course"
 remote_theme: "pmarsceill/just-the-docs"
 search_enabled: false
 
 domain: jeremy9959.net
 url: https://jeremy9959.net
-baseurl: /2021-Fall-3230-Math
+baseurl: /Math-5210
 
 
 aux_links:
