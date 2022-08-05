@@ -17,7 +17,12 @@ University of Connecticut <br>
 
 This is the first semester of the year-long graduate-level abstract algebra
 course at UConn and serves as preparation for the algebra prelim exam. The 4210 version of the
-course is open to undergraduates but is substantially the same course. 
+course is open to undergraduates but is the same course. 
+
+See [this page for information about the prelim exams](https://math.uconn.edu/degree-programs/graduate/preliminary-exams).  Notice that the syllabus for the prelim has been revised recently, so be sure to look at the [January, 2021
+study guide](https://math.uconn.edu/wp-content/uploads/sites/2511/2020/12/studyguidealg.pdf).
+We will cover core topics in group theory, ring theory, and linear algebra.
+ 
 
 ### Schedule
 
