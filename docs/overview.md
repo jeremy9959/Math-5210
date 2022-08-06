@@ -21,3 +21,7 @@ has_toc: false
 - Week 13: Traces and determinants (DF Chapter 11)
 - Week 14: Bilinear forms and the spectral theorem (DF Chapter 11)
 - Week 15 Additional topics on linear algebra
+
+
+
+DF refers to *Abstract Algebra, third edition* by Dummit and Foote.
