@@ -1,104 +1,109 @@
- Dummit and Foote, simplified from Keith:
- 1.1-1.7
- 2.1-2.4
- 3.1-3.3
- 4.1-4.5
- 5.1-5.5
- 7.1-7.6
- 8.1-8.3
- 9.1-9.4
- 11.1-11.4
- 
+ 1. Groups (DF Chapter 1)
+a. cyclic, symmetric, dihedral, quaternion, and matrix groups
+b. homomorphisms and isomorphisms
+c. group actions - basics
+
+2. Cyclic groups (DF Section 2.3)
+a. Euclid's algorithm, congruences
+b. orders
+c. structure of cyclic groups
+
+3. Subgroups (DF Chapter 2)
+a. centralizers, normalizers, stabilizers, kernels
+b. generators
+
+4. Quotient Groups (DF Chapter 3)
+a. normal subgroups, quotients
+b. cosets and Lagrange's theorem
+c. universal property
+
+5.  Properties of quotients (DF Chapter 3 continued)
+a. isomorphism theorems
+b. commutator subgroup
+
+6. Group Actions (DF Chapter 4)
+a. orbits, stabilizers
+b. permutation representations
+c. cycle decompositions
+d. regular and conjugation actions; the class equation
+e. automorphisms
+
+7. Cauchy and Sylow Theorems (DF Chapter 4 continued)
+
+8. Abelian groups (DF Chapter 5)
+
+9. Direct and semi-direct products (DF Chapter 5 continued)
+
+10. Applications and classification results
+
+11. Rings (DF Chapter 7)
+a. matrix rings, quadratic rings, polynomial rings, group rings
+b. fields and domains
+
+12. Ring morphisms and ideals (DF Chapter 7 continued)
+a. maps of rings
+b. ideals, quotient rings, universal property
+c. prime and maximal ideals; applications of Zorn's lemma
+
+13. More on ring morphisms and ideals (DF Chapter 7 continued)
+a. fraction fields
+b. relatively prime ideals and ring factorization
+
+14. Euclidean domains and Principal Ideal Domains (DF Chapter 8)
+a. normed rings and generalized euclidean algorithm
+b. Examples of euclidean domains (Gaussian integers, F[x] where F is a field)
+b. principal ideals and principal ideal domains
+c. principal ideal domains are unique factorization domains
+
+15. Polynomial rings (DF Chapter 9)
+a. basic properties and examples
+b. polynomials over a field
+c. Gauss's lemma and unique factorization in R[x]
+
+16. Irreducibility of polynomials (DF Chapter 9)
+a. Eisenstein criterion
+b. field extensions as quotients of F[x]
+c. maximal ideals of F[x]
+
+17. Some additional topics
+a. Noetherian rings
+b. Localization
+c. Nilpotent elements
+
+18. Vector Spaces over a field (DF Chapter 11)
+a. linear maps, spans
+b. linear independence and basis
+c. existence of basis
+d. dimension
+e. linear maps and matrices
+
+19. Subspaces (DF Chapter 11)
+a. change of basis
+b. subspaces and quotient spaces
+c. isomorphism theorems for subspaces and quotient spaces
+d. dimension 
+
+20. Duality (DF Chapter 11)
+a. Hom(V,W) as a vector space
+b. Dual and double dual
+c. transpose and duality
+
+21. Trace and determinant (DF Chapter 11)
+a. multilinear maps
+b. characterization of determinant as alternating map
+c. multiplicativity of determinant
+
+22. Eigenvalues and eigenvectors
+
+23. Bilinear forms
+a. adjoint map
+b. self-adjointness
+c. the spectral theorem
 
 
- 
- 
- groups and examples
-    - affine, quaternion, dihedral
-    - subgroups, center, centralizer
-    - cyclic groups, subgroups
-
-cyclic groups
-    subgroups of Z
-    homomorphic images of Z
-    every subgroup of a cyclic group is cyclic
-
-subgroups and cosets
-    normal subgroups, normalizers, quotient groups, cosets, index
-
-more on quotients
-    commutator subgroup
-    universal property
-
-isomorphism theorems and automorphisms
-
-group actions, orbits, stabilizers, conjugacy classes in S_n
-
-actions and cosets; cycle decomposition; class equation
-statements of sylow and cauchy theorems w/applications
 
 
-Proofs of Cauchy theorem
-Sylow theorems in separate argument
-product structure of abelian groups
 
-direct/semi-direct products
-
-more on semi-direct products
-some classification results for finite groups
-
----- end of first 10 lectures; first midterm
-
-rings -- introduction
-domains, product rings, quadratic rings, units
-
-ring homomorphisms
-ideals and kernels
-principal ideals
-generators of ideals
-
-polynomial rings
-evaluation map
-ideals  of Z[x]
-isomorphism theorems
-fields
-prime and maximal ideals
-
-integral domains
-Zorn's lemma and maximal ideals
-quotients of polynomial rings
-every nonzero comm. ring has a maximal ideal
-
-more applications of Zorn:
-maximal ideal containing given ideal
-divisible groups are injective
-intersection of prime ideals are nilpotent elements
-
-division algorithm for F[x]
-Euclidean domains
-Euclidean domains are principal ideal rings
-CRT for general commutative rings
-
-relative primality in integral domains
-PID
-R[x] is a pid iff R is a field
-factorization in integral domains
-irreducible and prime elements
-PID are UFD
-
-Noetherian rings have factorization into irreduciblesx
-
-irreducibility in R[x] where R is a domain
-irreducibility and roots
-Eisenstein criterion
-operations on ideals
-quotient field
-localization
-
-R a UFD => R[x] is a UFD
-
------end of lecture 18
----- Start of linear algebra
 
 vector spaces over a field
 linear maps, spans
@@ -126,7 +131,7 @@ matrix transpose
 double duals
 trace and determinant
 characterization of determinant as alternating multilinear map
-multiplicativity of dseterminant
+multiplicativity of determinant
 multilinear maps
 
 diagonal matrices, eigenvalues, eigenvectors
