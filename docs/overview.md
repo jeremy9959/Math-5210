@@ -8,6 +8,7 @@ has_toc: false
 # Course Outline
 
 - Week 1: [Groups and cyclic groups](01-groups.md) (DF Chapter 1 and Section 2.3)
+    - [Day One](notes/One.md)
 - Week 2: [Subgroups and quotient groups](02-subgroups.md) (DF Chapter 2 and 3)
 - Week 3: [Isomorphism theorems and group actions](03-isomorphisms.md) (DF Chapter 3 and 4)
 - Week 4: [Cauchy and Sylow Theorems; Abelian groups](04-sylow.md) (DF Chapter 4 and 5)
