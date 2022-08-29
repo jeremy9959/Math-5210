@@ -45,6 +45,10 @@ The easiest way to work with TeX is via the cloud resource [overleaf.com](http:/
 There are many tutorials on that site that provide an introduction to TeX.  In addition, 
 [this video](https://youtu.be/C9Icf9Wvp7U) might be helpful.
 
+### Prelim Exam Reference
+
+Information about the algebra prelim, including past exams, is [available here on the department graduate studies website](https://math.uconn.edu/degree-programs/graduate/preliminary-exams/).
+
 ### Assessment
 
 Grades in this course will be based on:
