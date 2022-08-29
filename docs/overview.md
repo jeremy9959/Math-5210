@@ -24,6 +24,6 @@ has_toc: false
 - Week 13: [Bilinear forms and the spectral theorem](13-spectral.md) (DF Chapter 11)
 - Week 14: [Additional topics on linear algebra](14-linear2.md)
 
-
+[The study guide to the algebra prelim is available here](https://math.uconn.edu/wp-content/uploads/sites/2511/2020/12/studyguidealg.pdf).
 
 DF refers to *Abstract Algebra, third edition* by Dummit and Foote.
