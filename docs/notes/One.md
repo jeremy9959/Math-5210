@@ -5,10 +5,10 @@ nav_order: 1.5
 parent: Course Content
 ---
 
+
 ## Groups and Subgroups
 
 For discussion:
-
 
 **Products**
 
@@ -33,8 +33,8 @@ What if $G$ is not abelian?
 1. If there is a bijection from $X$ to $Y$, prove that $S(X)$ is isomorphic to $S(Y)$.
 2. Review the rules for cycle decomposition and multiplication of permutations in $S_n$. Let
 $\sigma=(4\ 8\ 6)(4\ 3\ 8)(1\ 3\ 5\ 2)$.
-- Write $\sigma$ as a product of disjoint cycles.
-- Write $\sigma$ as a product of transpositions.  What is its sign?
+    - Write $\sigma$ as a product of disjoint cycles.
+    - Write $\sigma$ as a product of transpositions.  What is its sign?
 3. The group of symmetries of the square $D_{8}$ "comes with" an action on the $4$ corners of the square.
 Labelling the four corners with $X=\\{1,2,3,4\\}$, this action associates a permutation  of $X$
 to each element of $D_{8}$.  Show that this is an injective homomorphism from $D_{8}$ to $S_{4}$ and 
