@@ -11,7 +11,7 @@ parent: Course Content
 **Definition:** A group is a set $$G$$ together with a map $$m: G\times G\to G$$ satisfying
 the following axioms:
 
-1.    There is an element $e\in G$ such that $m(e,x)=m(x,e)=x$ for all $x\in G$.  
+1.    There is an element $e\in G$ such that $m(e,x)=m(x,e)=x$ for all $x\in G$. 
 2.    For all $x,y,z\in G$, we have $m(x,m(y,z))=m(m(x,y),z)$. 
 3.    For all $x\in G$, there is $y\in G$ such that $m(x,y)=m(y,x)=e$.
 
