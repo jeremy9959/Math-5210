@@ -7,6 +7,7 @@ has_toc: false
 ---
 # Course Outline
 
+## Notes 
 - Week 1: [Groups and cyclic groups](01-groups.md) (DF Chapter 1 and Section 2.3)
     - [Day One](notes/One.md)
     - [Day Two](notes/Two.md)
@@ -24,12 +25,12 @@ has_toc: false
 - Week 13: [Bilinear forms and the spectral theorem](13-spectral.md) (DF Chapter 11)
 - Week 14: [Additional topics on linear algebra](14-linear2.md)
 
-# Problem Sets
+## Problem Sets
 
 - [Set 1: Due September 11, 2022](problems/set1.md)
 
 
-# Prelim Exam 
+## Prelim Exam 
 
 [The study guide to the algebra prelim is available here](https://math.uconn.edu/wp-content/uploads/sites/2511/2020/12/studyguidealg.pdf).
 
