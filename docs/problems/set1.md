@@ -27,7 +27,9 @@ conditions:
     - If $h$ is any element satisfying $h\lessim a$ and $h\lessim b$, then $h\lessim g$. 
 
 Prove that any two elements $m$ and $n$ have a *meet*. 
+
 3. Describe all of this fancy stuff in a simpler way.
+
 4. (Extra) What happens if, instead of considering injective homomorphisms from $\Zn{n}$ to $\Zn{m}$, we
 consider surjective ones?
 
