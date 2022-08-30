@@ -1,3 +1,8 @@
+---
+layout: default
+nav_exclude: true
+---
+
 # Problem Set 2
 
 **Instructions:** Write up your solutions using LaTeX and submit them on HuskyCT by September 25, 2022.
