@@ -14,23 +14,21 @@ nav_exclude: true
 3. Write each of $\sigma$ and $\tau$ as products of transpositions.
 4. Find the sign of $\sigma$ and $\tau$.
 
-**Problem 2:** Define an ordering $\lesssim$ on the positive integers *greater than one* by saying that $n\lessim m$ if there is an injective homomorphism from $\Zn{n}\to\Zn{m}$.
+**Problem 2:** Define an ordering $\lesssim$ on the positive integers by saying that $n\lessim m$ if there is an injective homomorphism from $\Zn{n}\to\Zn{m}$.
 
 1. Show that this relation is reflexive ($n\lessim n$ for all $n$),
 antisymmetric ($n\lessim m$ and $m\lesssim n$ implies $n=m$), and transitive ($n\lessim m$ and $m\lessim k$
 implies $n\lessim k$.) These axioms mean that the positive integers are a *partially ordered set* under
 this order relation.
 
-2. An element $n$ of this set is *minimal* if $m\lessim n$ implies $m=n$.  What are the minimal elements of this partial order?
-
-3. The *meet* $g$ of two elements $a$ and $b$ in a partially ordered set is an element that satisfies these two
+2. The *meet* $g$ of two elements $a$ and $b$ in a partially ordered set is an element that satisfies these two
 conditions:
     - $g\lessim a$ and $g\lessim b$.
     - If $h$ is any element satisfying $h\lessim a$ and $h\lessim b$, then $h\lessim g$. 
 
 Prove that any two elements $m$ and $n$ have a *meet*. 
-4. Describe all of this fancy stuff in a simpler way.
-5. (Extra) What happens if, instead of considering injective homomorphisms from $\Zn{n}$ to $\Zn{m}$, we
+3. Describe all of this fancy stuff in a simpler way.
+4. (Extra) What happens if, instead of considering injective homomorphisms from $\Zn{n}$ to $\Zn{m}$, we
 consider surjective ones?
 
 **Problem 3:** If $H$ is a subgroup of $G$, then the normalizer $N_{G}(H)=\{g\in G: gHg^{-1}=H\}$
