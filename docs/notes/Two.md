@@ -85,7 +85,7 @@ from $\Z$ to $G$.
 5. Every subgroup of $\Zn{n}$ is cyclic, and there is a unique such subgroup for every $d\mid n$.
 6. If $H$ is the cyclic subgroup of $\Zn{n}$ of order $d$ where $d \mid  n$, then the elements of $H$ are the multiples of $n/d$. The generators of $H$ are the multiples $kn/d$ where $\mathrm{gcd}(k,d)=1$.
 7. If $\mathrm{gcd}(n,m)=1$ then $\Zn{nm}$ is isomorphic to $\Zn{n}\times\Zn{m}$.  
-8. A pair $(a,b)$ generates $\Zn{n}\times\Zn{m}$ if and only if $a$ and $b$ generate $\Zn{n}\times\Zn{m}$ respectively.  Therefore $\phi(nm)=\phi(n)\phi(m)$ when $n$ and $m$ are relatively prime.
+8. If $n$ and $m$ are relatively prime, then a pair $(a,b)$ generates $\Zn{n}\times\Zn{m}$ if and only if $a$ and $b$ generate $\Zn{n}$ and $\Zn{m}$ respectively.  Therefore $\phi(nm)=\phi(n)\phi(m)$ when $n$ and $m$ are relatively prime.
 9. If $n=p_1^{e_1} p_2^{e_2}\cdots p_k^{e_k}$ where the $p_i$ are distinct primes then 
 
 $$
