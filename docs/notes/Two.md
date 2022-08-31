@@ -27,11 +27,12 @@ is a multiple of $d$.
 7. If $g$ is any other common divisor of $a$ and $b$, then $g$ divides $d$ since $d=ax+by$. 
 8. Therefore $d$ is the *greatest* common divisor of $a$ and $b$, and any other common divisor of $a$ and $b$
 is a divisor of $d$.
+9. $a$ and $b$ are called *relatively prime* if their greatest common divisor is $1$.
 
 **Theorem:** Given nonzero integers $x$ and $y$, the equation $ax+by=z$ has a solution if and only if $z$ is a multiple
 of the greatest common divisor of $a$ and $b$. 
 
-**Corollary 1:** If $a$ and $n$ are relatively prime, and $a\|nb$, then $a|b$.
+**Corollary 1:** If $a$ and $n$ are relatively prime, and $a\mid nb$, then $a\mid b$.
 
 **Proof:** Write $ax+ny=1.$  Multiply by $b$ to get $abx+nby=b$.  Since $a$ divides both terms on the left, it divides $b$.
 
@@ -39,10 +40,10 @@ of the greatest common divisor of $a$ and $b$.
 
 **Proof:** Divide $ax+by=d$ by $d$.
 
-**Corollary 3:** The least common multiple of $m$ and $n$ is $mn/d$ where $d=\gcd{m}{n}$. 
+**Corollary 3:** The least common multiple of $m$ and $n$ is $mn/d$ where $d=\gcd(m,n)$. 
 
-**Proof:** Suppose $x$ is a common multiple of $m$ and $n$.  Write $x=am$.  Then $n\|x$ so $n\|am$ and therefore $\frac{n}{d}\|a\frac{m}{d}$.  By Corollaries 1 and 2
-this means $\frac{n}{d}$ divides $a$, so $mn/d$ divides $x$.  This $mn/d$ is the least common multiple and any common multiple is a multiple of $mn/d$. 
+**Proof:** Suppose $x$ is a common multiple of $m$ and $n$.  Write $x=am$.  Then $n\mid x$ so $n\mid am$ and therefore $\frac{n}{d}\mid a\frac{m}{d}$.  By Corollaries 1 and 2
+this means $\frac{n}{d}$ divides $a$, so $mn/d$ divides $x$.  Thus $mn/d$ is the least common multiple and any common multiple is a multiple of $mn/d$. 
 
 **Congruences**
 
@@ -79,11 +80,10 @@ we have found all solutions.
 
 1. Any cyclic group of infinite order is isomorphic to $\Z$.  Any cyclic group of finite order $n$ is isomoprhic to $\Zn{n}$. A group $G$ is cyclic if and only if there is a surjective homomorphism 
 from $\Z$ to $G$.
-2. An infinite cyclic group has two generators.  
-3. If $g$ is a generator of a finite cyclic group $G$ of order $n$, then $g^{a}$ has order $n/\mathrm{gcd}(n,a)$.  Thus $g^{a}$ generates $G$ if and only if $\mathrm{gcd}(n,a)=1$. 
-4. The Euler function $\phi(n)$ is (by definition) the number of generators of a cyclic group of order $n$. 
-5. Every subgroup of $\Zn{n}$ is cyclic, and there is a unique such subgroup for every $d\|n$. 
-6. If $H$ is the cyclic subgroup of $\Zn{n}$ of order $d$ where $d \| n$, then the elements of $H$ are the multiples of $n/d$. The generators of $H$ are the multiples $kn/d$ where $\mathrm{gcd}(k,d)=1$.
+2. An infinite cyclic group has two generators.
+3. If $g$ is a generator of a finite cyclic group $G$ of order $n$, then $g^{a}$ has order $n/\mathrm{gcd}(n,a)$.  Thus $g^{a}$ generates $G$ if and only if $\mathrm{gcd}(n,a)=1$.
+5. Every subgroup of $\Zn{n}$ is cyclic, and there is a unique such subgroup for every $d\mid n$.
+6. If $H$ is the cyclic subgroup of $\Zn{n}$ of order $d$ where $d \mid  n$, then the elements of $H$ are the multiples of $n/d$. The generators of $H$ are the multiples $kn/d$ where $\mathrm{gcd}(k,d)=1$.
 7. If $\mathrm{gcd}(n,m)=1$ then $\Zn{nm}$ is isomorphic to $\Zn{n}\times\Zn{m}$.  
 8. A pair $(a,b)$ generates $\Zn{n}\times\Zn{m}$ if and only if $a$ and $b$ generate $\Zn{n}\times\Zn{m}$ respectively.  Therefore $\phi(nm)=\phi(n)\phi(m)$ when $n$ and $m$ are relatively prime.
 9. If $n=p_1^{e_1} p_2^{e_2}\cdots p_k^{e_k}$ where the $p_i$ are distinct primes then 
