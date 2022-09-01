@@ -5,6 +5,7 @@ nav_order: 1.8
 parent: Course Content
 ---
 
+See DF Section 2.3.
 
 **Euclid's Algorithm**
 
