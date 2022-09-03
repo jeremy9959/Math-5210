@@ -5,7 +5,18 @@ nav_order: 2.5
 parent: Course Content
 ---
 
+## Generators
+
+A group is *finitely generated* if there is a finite set $A$ which generates it. 
+- finite groups are finitely generated
+- $\Z$ is finitely generated
+- $\Q$ is *not* finitely generated. 
+
 ## Special subgroups
+
+If $H$ is normal in $G$ and $G$ is normal in $K$, is $H$ normal in $K$?
+
+If $H$ is normal in $G$, and $f:G\to K$ is a homomorphism, is $f(H)$ normal in $K$?
 
 Let $G$ be the dihedral group $D_{2n}$ of symmetries of a regular $n$-gon.
 - Show that the subgroup of rotations is normal.
@@ -14,29 +25,29 @@ Let $G$ be the dihedral group $D_{2n}$ of symmetries of a regular $n$-gon.
 - Draw the lattice of subgroups of $D_{2n}$.
 
 Let $Q$ be the quaternion group with $8$ elements. Draw its lattice of subgroups.
+(The quaternion group has 8 elements $\lbrace \pm 1, \pm i, \pm j, \pm k\rbrace$ where each 
+of $i,j,k$ satisfy $x^2=-1$ and $ijk=-1$.  Compare $Q$ with $D_{8}$.
 
-Show that the center of $S_{n}$ is trivial if $n\ge 3.
+Show that $Q$ is isomorphic to the subgroup of $\mathrm{SL}_{2}(\Zn{3})$ generated
+by the matrices $\begin{pmatrix} 1 & 1\cr  1& -1\end{pmatrix}$ and $\begin{pmatrix} 0 & -1 \cr 1 & 0\end{pmatrix}$.
+
+Show that the center of $S_{n}$ is trivial if $n\ge 3$.
 
 What is the normalizer of the rotation group in  $\GL_{2}(\R)$? What is its centralizer?
 Interpret this in terms of group actions.
 
-**Theorem (Cauchy):** Any group is a subgroup of a permutation group.
-
-Make this explicit for the Dihedral group.
 
 
-Signed permutation matrices?
-
-Affine group of the plane
+The affine group $\mathrm{Aff}(\R^{2})$ of the plane is the subgroup of $\GL_{3}(\R)$ consisting of matrices of the form
 $$
 \left(
 \begin{matrix}
 a & b & x \cr
 c & d & y \cr
 0 & 0 & 1\cr
-\end{matrix}\right)
+\end{matrix}\right).
 $$
-acting on points $(u,v)$ viewed as column vectors 
+It acts on points $(u,v)$ viewed as column vectors 
 $$
 \left[\begin{matrix}
 u \cr
@@ -44,14 +55,31 @@ v \cr
 1\cr
 \end{matrix}\right]
 $$
+by matrix multiplication.
 
-Euclidean subgroup of this group.
+Show that $\GL_{2}(\R)$ viewed as the upper triangular block is a normal subgroup of the affine group.
 
-If $H$ is normal in $G$ and $G$ is normal in $K$, is $H$ normal in $K$?
-If $H$ is normal in $G$, and $f:G\to K$ is a homomorphism, is $f(H)$ normal in $K$?
+The additive group $\R^{2}$ is a subgroup of the affine group; what is its normalizer?
 
-## Action on cosets
+The subgroup of the affine group where the upper triangular matrix is a rotation matrix (an "orthogonal matrix")
+is called the Euclidean group.  
 
+
+### Every group is a permutation group 
+
+**Theorem (Cauchy):** Any group is a subgroup of a permutation group.
+
+**Proof:** Given $g\in G$, let $f_{g}:G\to G$ be the map $f_{g}(h)=gh$.  This gives a map from 
+$G$ to $S(G)$. We have $f_{e}(h)=eh=h$ so $f_{e}$ is the identity map.   Also
+
+$$f_{ab}(h)=abh=(f_{a}\circ f_{b})(h)$$
+
+for any $h\in G$.  Since composition
+of functions is the group operation in $S(G)$, the map $g\mapsto f_{g}$ is a homomorphism from $G\to S(G)$.
+
+Finally, the map $f_{h}$ is the identity map only when $h=e$.  So this map is injective.  
+
+Make this explicit for the Dihedral group.
 
 
 

@@ -20,6 +20,8 @@ where the intersection is over all subgroups $H$ of $G$ that contain the set $A$
 
 ### Some special types of subgroups
 
+See DF Section 2.2
+
 Suppose $G$ is a group and $H$ is a subgroup of $G$.
 
 1. The **centralizer** $C_{G}(H)$ of $H$ is the set of elements $g\in G$ such that $gh=hg$ for all $h\in H$. 
@@ -63,6 +65,8 @@ If we restrict the action of $N_{G}(H)$ to the set $H$, then $C_{G}(H)$ is exact
 that fixes $H$ pointwise.  In other words, $C_{G}(H)$ is the *kernel* of the conjugation action of $N_{G}(H)$ on $H$. 
 
 # Cosets
+
+See DF Section 3.1
 
 **Definition:** Let $H$ be a subgroup of a group $G$.  A set $gH=\lbrace gh : h\in H\rbrace$ is called a *left coset* of $H$.
 The corresponding set $Hg$ is called a right coset.
