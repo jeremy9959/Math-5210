@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Day 3
+title: Day 4
 nav_order: 2.8
 parent: Course Content
 ---
@@ -14,7 +14,7 @@ parent: Course Content
 then
 1. $\mid HK\mid = \frac{\mid H \mid \mid K \mid}{\mid H \cap K \mid}$
 2. $HK$ is a subgroup if and only if $HK=KH$.  This holds if $H$ is a subgroup of $N_{G}(K)$, and
-\emph{a fortiori} if $K$ is normal in $G$. 
+*a fortiori* if $K$ is normal in $G$. 
 3. If $m$ and $n$ are $[G:H]$ and $[G:K]$ respectively, then the index of $H\cap K$ in $G$
 is between $\mathrm{lcm}(m,n)$ and $mn$. 
 ## Coset examples
@@ -23,10 +23,10 @@ is between $\mathrm{lcm}(m,n)$ and $mn$.
 There are $n!/k!$ of them. 
 
 The coset representatives can be viewed as maps from the set $\lbrace k+1,\ldots, n\rbrace$ to the
-set $\lbrace 1,\ldots, n\rbrace.
+set $\lbrace 1,\ldots, n\rbrace.$
 
-**Example 2** Let $G=S_n$.  The permutation group $S_k\times S_{n-k}$ (where $S_{n-k}$ is viewed
-as the permutations of the set $\lbrace k+1,\ldots,\rbrace$.) What are the cosets of this subgroup?
+**Example 2** Let $G=S_n$.  The permutation group $S_k\times S_{n-k}$ is a subgroup of $S_{n}$ where $S_{n-k}$ is viewed
+as the permutations of the set $\lbrace k+1,\ldots,\rbrace$. What are the cosets of this subgroup?
 
 **Example 3** Let $G=\GL_{2}(\mathbb{R})$.  Let $P$ be the subgroup of upper triangular matrices.
 Show that the cosets $G/P$ are in bijection with equivalence classes of 
