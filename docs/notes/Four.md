@@ -8,7 +8,7 @@ parent: Course Content
 
 ## Cosets and index
 
-**Proposition:** If $K$ is a subgroup of $H$ and $H$ is a subgroup of $G$ then $[G:K]=[G:H][H:K].
+**Proposition:** If $K$ is a subgroup of $H$ and $H$ is a subgroup of $G$ then $[G:K]=[G:H][H:K].$
 
 **Proposition:** If $H$ and $K$ are subgroups of $G$, and $HK=\lbrace hk : h\in H, k\in K\rbrace$
 then
@@ -17,6 +17,7 @@ then
 *a fortiori* if $K$ is normal in $G$. 
 3. If $m$ and $n$ are $[G:H]$ and $[G:K]$ respectively, then the index of $H\cap K$ in $G$
 is between $\mathrm{lcm}(m,n)$ and $mn$. 
+
 ## Coset examples
 
 **Example 1** Let $G=S_n$.  The permutation group $S_k$ is a subgroup of $S_n$. What are its cosets?
@@ -63,6 +64,22 @@ $\PGL_{n}(F)$ is the quotient of $\GL_{n}(F)$ by the normal subgroup of matrices
 3. Every injective homomorphism $f:G\to H$ makes $G$ into a subgroup of $H$. 
 4. If $G$ is simple, every homomorphism $f:G\to H$ is either trivial or injective.
 
+### Examples
+
+The group
+$$
+S^{1}=\lbrace z\in\C : \|z\|=1\rbrace
+$$
+is isomorphic to $\R/\Z$. The projection map is $\theta\mapsto e^{i\theta}$.
+
+The subgroup $\Q/\Z\subset\R/\Z$ is isomorphic to the roots of unity.
+
+Let $D_{2n}$ be the dihedral group of order $2n$ and suppose $d\mid n$.  Then $\Zn{d}$ is a normal subgroup
+of $D_{2n}$ and the quotient group is $D_{2n/d}$
+
+
 ## The alternating group
 
-The alternating group $A_{n}$ is the subgroup of $S_{n}$ consisting of even permutations. 
+The alternating group $A_{n}$ is the subgroup of $S_{n}$ consisting of even permutations. It is the kernel
+of the sign homomorphism.
+

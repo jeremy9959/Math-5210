@@ -6,6 +6,8 @@ domain: jeremy9959.net
 url: https://jeremy9959.net
 baseurl: /Math-5210
 
+mermaid:
+  version: "9.1.6"
 
 aux_links:
   "Author Home Page":

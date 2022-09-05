@@ -1,6 +1,12 @@
 <script type="text/javascript">
     window.MathJax = {
+      loader: {
+      load: ['[custom]/xypic.js'],
+      paths: {custom: 'https://cdn.jsdelivr.net/gh/sonoisa/XyJax-v3@3.0.1/build/'}
+    },
       tex: {
+
+        packages: {'[+]': ['xypic']},
         tags: "ams",
         inlineMath: [ ['$','$'], ["\\(","\\)"] ],
         displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
@@ -14,6 +20,7 @@
           Q: "{\\mathbb{Q}}",
           SL: "{\\mathrm{SL}}",
           PGL: "{\\mathrm{PGL}}",
+          C: "{\\mathbb{C}}",
       
 
 
