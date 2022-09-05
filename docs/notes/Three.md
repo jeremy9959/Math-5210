@@ -84,7 +84,7 @@ of functions is the group operation in $S(G)$, the map $g\mapsto f_{g}$ is a hom
 
 Finally, the map $f_{h}$ is the identity map only when $h=e$.  So this map is injective.  
 
-Make this explicit for the Dihedral group.
+Make this explicit for $S_{3}$.
 
 
 
