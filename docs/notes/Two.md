@@ -101,3 +101,6 @@ this map.
 3. Find all surjective homomorphisms $\Zn{24}\to\Zn{6}$. 
 4. Prove that $(\Zn{11})^{\times}$ is cyclic.  In fact $(\Zn{p})^{\times}$ is always cyclic, we'll prove this later.
 
+## Euclidean algorithm in python 
+
+<script src="https://gist.github.com/jeremy9959/50d6a4faffb479de67a917df649a190b.js"></script>
