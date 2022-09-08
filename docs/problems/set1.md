@@ -49,7 +49,7 @@ of this subroup is $\sigma_{a,b}$ for some $a$ and $b$. Conclude that the normal
 is the affine group of $\Zn{n}$.
 
 
- **Problem 4:** Let $M$ be the group with two generators $u$ and $v$ satisfying $u^2=v^8$ and $vu=uv^{5}$.
+ **Problem 4:** Let $M$ be the group with two generators $u$ and $v$ satisfying $u^2=v^8=1$ and $vu=uv^{5}$.
  This group has order $16$ (can you verify this?).  $M$ has three subgroups of order $8$: $\langle u,v^2\rangle$,
  $\langle v\rangle$, and $\langle uv \rangle$.  Every proper subgroup is contained in one of these three groups.
 
