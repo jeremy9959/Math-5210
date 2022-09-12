@@ -63,7 +63,7 @@ $$
 \begin{xy}
 \xymatrix {}
 G \ar[d]^{\pi}\ar[r]^{f} & A \\
-G/[G,G] \ar[ur]^{\overline{f}}
+G/[G,G] \ar[ur]^{\overline{f}}&
 }
 \end{xy}
 where $\pi:G\to [G,G]$ is the quotient map.
@@ -71,7 +71,6 @@ In other words, every homomorphism from $G$ to an abelian group $A$ "comes from"
 
 This is the first isomorphism theorem once we observe that $G/[G,G]$ is abelian and $[G,G]$ is in the kernel of every map to an abelian group. 
 
-The commutator subgroup of $S_{n}$ is $A_{n}$, so $\Zn{2}$ is the only abelian quotient of $S_{n}$.
 
 The commutator subgroup of $\GL_{2}(\R)$ is $\SL_{2}(R)$. (This is proved by somewhat painful calculations.)
 
