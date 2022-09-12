@@ -117,11 +117,13 @@ the size of each orbit is a divisor of the order of $G$.
 1. If $G$ is a group, and $H$ is a subgroup, let $X$ be the set of left cosets of $H$ in $G$ (regardless of
 whether $H$ is normal).  Then $G$ acts on $X$ via $g\cdot kH=gkH$.  The set $X$ is called a *homogeneous space*
 for $G$ and is sometimes written $G/H$ even when $H$ isn't normal.   Property 3 under "formalities"
-says that *every orbit in a group action is isomorphic to a homogeneous space for the group.*
+says that *every orbit in a group action is isomorphic to a homogeneous space for the group.*  Notice that
+if $H$ is the trivial subgroup, then this is the action of $G$ on itself by left multiplication; this is called the (left) *regular* action.+-
 2. If $G$ is a group, then $G$ acts on itself via conjugation: $g\cdot h=ghg^{-1}$.  The orbits
 are called *conjugacy classes.*  The stabilizer of an element $g$ under conjugation is the centralizer
 $C_{G}(\lbrace g \rbrace)$ and the index of this stabilizer is the size of the conjugacy class of $g$. 
 3. If $g\in Z(G)$ is an element of the center of $G$, then it forms a one-element conjugacy class and its centralizer is all of $G$. 
+
 
 ### The class equation
 
