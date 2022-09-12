@@ -142,3 +142,25 @@ $$
 $$
 
 This is called **the class equation**.
+
+## Automorphisms
+
+If $G$ is a group, the automorphism group $\Aut(G)$ of $G$ is the set of isomorphisms $G\to G$, with group operation given by composition of functions.
+
+If $G=\Zn{n}$ then $\Aut(G)$ is $(\Zn{n})^{*}$, the multiplicative group of elements mod $n$ that are relatively
+prime to $n$.
+
+If $G=\Zn{n}^{k}$, then $\Aut(G)$ is $\GL_{n}(\Zn{n})$, the group of $n\times n$ matrices with entries in 
+$\Zn{n}$ that are invertible (meaning their determinant is relatively prime to $n$).
+
+For $g\in G$, conjugation by $g$ is an automorphism of $G$.  This gives a homomorphism $G\to \Aut(G)$. THe 
+kernel of this map is the center of $G$.  The image is called the group of *inner automorphisms.* The
+inner automorphisms form a normal subgroup of the automorphism group.
+
+A group $G$ acts on a normal subgroup $H$ by conjugation.  The centralizer of $H$ is the kernel of the action.
+Therefore $G/C_{G}(H)$ is a subgroup of $\Aut(H)$.  And $G/Z(G)$ is a subgroup of $\Aut(G)$.
+
+**Definition:** A subgroup $H$ of $G$ is called *characteristic* if it is fixed by *every* automorphism of $G$,
+not just the inner ones. 
+
+**Weird fact:** Every automorphism of $S_{n}$ is inner, *except* $S_{6}$ has an outer automorphism.
