@@ -8,6 +8,7 @@ nav_exclude: true
 **Instructions:** Write up your solutions using LaTeX and submit them on HuskyCT by September 25, 2022.
 
 **Problem 1:** Let $M$ and $N$ be normal subgroups of a group $G$ such that $G=MN$.
+
 1. Prove that
 $$
 G/(M\cap N)\isom (G/M\times G/N).
@@ -20,6 +21,7 @@ In the case where $M\cap N$ is trivial, we say that $G$ is the *internal direct 
 **Problem 3:** (with thanks to Keith Conrad) The group $G=\SL_{2}(\Z)$ is the group of $2\times 2$
 integer matrices with determinant $1$.  It acts on $\Z\times\Z$ viewed as column vectors with
 integer entries by matrix multiplication.
+
 1. Show that if $m\not=n$ in $\Z$ are positive, then $\left[\begin{matrix} m \cr 0\end{matrix}\right]$  
 and $\left[\begin{matrix} n \cr 0\end{matrix}\right]$ are in different $G$-orbits. 
 2. Show that the $G$ orbit of  $\left[\begin{matrix} x\cr y\end{matrix}\right]$ contains 
@@ -35,6 +37,7 @@ Make this explicit by finding an $A\in G$ so that $ANA^{-1}$ stabilizes $\left[\
 As it happens, $S_{6}$ has an outer automorphism, which is described in the Wikipedia article [Automorphisms of the symmetric and alternating groups](https://en.wikipedia.org/wiki/Automorphisms_of_the_symmetric_and_alternating_groups).
 
 **Problem 5:** (another Keith Conrad problem)  Let $G$ be a group of order $1683=9\times 11\times 17.$
+
 1. Prove $G=HK$ where $H$ is a cyclic normal subgroup of order $187$ and $K$ is a subgroup of order $9$.
 2. Prove that $H$ and $K$ commute with each other.
 3. Conclude that groups of order $1683$ are abelian (and up to isomorphism there are two of them).

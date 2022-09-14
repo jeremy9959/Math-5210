@@ -78,4 +78,16 @@ The normalizer of a cycle was computed  in the homework, at least in one case.
 
 ## $A_{5}$ is a simple group
 
+The conjugacy classes in $S_{5}$ that contain even permutations are contained in $A_{5}$ but they might
+split up into multiple classes.
+- there is one conjugacy class of 3-cycles in $A_{5}$ (there are 20 of these)
+- there are two conjugacy classes of 5-cycles in $A_{5}$ (there are 4!=24 5 cycles, but they split into two groups of 12)
+- all elements of order $2$ in $A_{5}$ are conjugate to $(12)(34)$. There are $15$ of these. 
+
+So the conjugacy classes in $A_{5}$ have orders 1, 12, 15, and 20. 
+
+If $H$ were a normal subgroup, it would have to have order dividing 60, or 1,2,3,4,5,6,10,12,15,20,30,60.
+And it would have to be 1 plus a sum of some subset of 12,12,15,20.  The only way that works is if it has order
+1 or 60.
+
 
