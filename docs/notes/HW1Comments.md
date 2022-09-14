@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: Comments on HW set 1
