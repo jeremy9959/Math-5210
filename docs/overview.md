@@ -33,7 +33,7 @@ has_toc: false
 
 - [Set 1: Due September 11, 2022](problems/set1.md)
 - [Comments on Set 1](notes/HW1Comments.md)
-
+- [Set 2: Due October 2, 2022](problems/set2.md)
 
 ## Prelim Exam 
 
