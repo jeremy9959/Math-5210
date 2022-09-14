@@ -1,8 +1,9 @@
 ---
 layout: default
-nav_exclude: true
+title: HW Set 1
+nav_order: 2.85
+parent: Course Content
 ---
-
 # Problem Set 1
 
 **Instructions:** Write up your solutions using LaTeX and submit them on HuskyCT by September 11, 2022.
