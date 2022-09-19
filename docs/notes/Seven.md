@@ -40,4 +40,8 @@ If $H$ were a normal subgroup, it would have to have order dividing 60, or 1,2,3
 And it would have to be 1 plus a sum of some subset of 12,12,15,20.  The only way that works is if it has order
 1 or 60.
 
+## Proof of the Sylow theorems
+
+See [the main page for this section.](https://jeremy9959.net/Math-5210/04-sylow.html)
+
 
