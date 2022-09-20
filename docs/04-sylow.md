@@ -18,22 +18,22 @@ about the mathematics of the early work on this problem.  (You'll need UConn lib
 
 ## The Theorems
 
-**Theorem:** (Cauchy) Let $G$ be a group of order $n$ and suppose $p\mid n$.  Then $G$ has an element of order $p$.
+**Theorem:** (Cauchy) Let $G$ be a group of order $n$ and suppose $p\divides n$.  Then $G$ has an element of order $p$.
 
-**Proof:** We prove this by induction on $\mid G\mid$.  We have proved this if $G$ is abelian, and in particular if $\mid G\mid=p$.  Suppose $G$ is not abelian.  Consider its class equation
+**Proof:** We prove this by induction on the order of $G$.  We have proved this if $G$ is abelian, and in particular if $\lvert G\rvert =p$.  Suppose $G$ is not abelian.  Consider its class equation
 
 $$
-\mid G\mid = \mid Z(G)\mid + \sum_{g}[G:C_{G}(g)]
+\lvert G\rvert = \lvert Z(G)\rvert + \sum_{g}[G:C_{G}(g)]
 $$
 
-where the sum is over representatives for the conjugacy classes of $G$ of size greater than one.  Since $G$ is nonabelian there is at least one such class.  Since the left side of this equation is divisible by $p$, so is the right side.  If $\mid Z(G)\mid $ is divisible by $p$ then, since $Z(G)$ is abelian, it contains an element of order $p$. Otherwise, at least one of $[G:C_{G}(g)]$ is not divisible by $p$.  Therefore by Lagrange's theorem
-$\mid C_{G}(g)\mid$ is divisible by $p$.  Since $C_{G}(g)$ is smaller then $G$, it contains an element of order $p$ by induction.
+where the sum is over representatives for the conjugacy classes of $G$ of size greater than one.  Since $G$ is nonabelian there is at least one such class.  Since the left side of this equation is divisible by $p$, so is the right side.  If $\lvert Z(G)\rvert$ is divisible by $p$ then, since $Z(G)$ is abelian, it contains an element of order $p$. Otherwise, at least one of $[G:C_{G}(g)]$ is not divisible by $p$.  Therefore by Lagrange's theorem
+$\lvert C_{G}(g)\rvert$ is divisible by $p$.  Since $C_{G}(g)$ is smaller then $G$, it contains an element of order $p$ by induction.
 
 **Theorem:** Let $G$ be a finite group of order $n$ and let $p$ be a prime number.  
 
 1. There exists a subgroup $P$ of $p$-power order such that $[G:P]$ is prime to $p$. Such a subgroup is called a Sylow $p$-subgroup of $G$. 
 2.  If $P$ is any Sylow $p$-subgroup of $G$, and $H$ is any subgroup of $G$ of prime power order, then some conjugate of $H$ is contained in $P$.  In particular, all Sylow $p$-subgroups are conjugate.
-3.  Let $n_p$ be the number of Sylow $p$-subgroups in $G$.  Then $n_p\equiv 1 \pmod{p}$ and $n_p\mid n$. 
+3.  Let $n_p$ be the number of Sylow $p$-subgroups in $G$.  Then $n_p\equiv 1 \pmod{p}$ and $n_p\vert n$. 
 
 
 
@@ -58,7 +58,7 @@ We will need the following lemma about the action of $p$ groups on finite sets.
 **Lemma:** Suppose $X$ is a finite set with an action of a finite $p$-group $H$. Let $\mathrm{Fix}_{H}(X)$
 be the set of points in $X$ that are fixed by $H$.  Then 
 $$
-\mid X\mid \equiv \mid \mathrm{Fix}_{H}(X)\mid\pmod{p}.
+\order{X} \equiv \lvert \mathrm{Fix}_{H}(X)\rvert\pmod{p}.
 $$
 
 **Proof:** Under the action of $H$, $X$ breaks up into orbits of varying sizes; these sizes divide the order of $H$, which is a power of $p$.  The orbits of size bigger than one all of size divisible by $p$.  The orbits of size
@@ -67,22 +67,22 @@ one are the fixed points. So the number of elements in $X$ is the number of fixe
 **Proof of Sylow:**
 
 **Part 1.**
-1. By Cauchy there is  a subgroup $H_1$ of order $p$ in $G$.  
+1. By Cauchy there is  a subgroup $H$ of order $p$ in $G$.  
 2. Suppose now that $H$ is a subgroup of order $p^{i}$.  If $[G:H]$ is prime to $p$, we are done. 
 3. Consider the action of $H$ on the homogeneous space of cosets $X=G/H$. 
 4. $X$ breaks up into orbits under the action of $H$, each orbit being of size $1$ or a power of $p$.   
 5. By the second Lemma above, the number of elements of $X$ fixed by $H$ is divisible by $p$. 
 6. By the first lemma, the index $[N_{G}(H):H]$ is divisible by $p$. 
 7. By Cauchy's theorem, the group $N_{G}(H)/H$ has a subgroup of order $p$. 
-8. By the isomorphism theorems, the subgroups of $N_{G}(H)/H$ correspond to the subgroups of $N_{G}(H)$ containing $H$.  Therefore there is a subgroup of $N_{G}(H)$ of order $p\mid H\mid$. 
-9. We have shown that if $p^{k}$ is the exact power of $p$ dividing $n$, and $i\lt k$, then any subgroup of order $p^{i}$ is contained in a subgroup of order $p^{i+1}$.  Thus there must be a subgroup of order $p^{k}$. 
+8. By the isomorphism theorems, the subgroups of $N_{G}(H)/H$ correspond to the subgroups of $N_{G}(H)$ containing $H$.  Therefore there is a subgroup of $N_{G}(H)$ of order $p^{i+1}$.
+9. We have shown that if $p^{k}$ is the exact power of $p$ dividing $n$, and $i<k$, then any subgroup of order $p^{i}$ is contained in a subgroup of order $p^{i+1}$.  Thus there must be a subgroup of order $p^{k}$. 
 
 **Part 2.**
 1. Let $Q$ be a group of $p$-power order, and let $P$ be a Sylow $p$-subgroup.  The group $Q$ acts on the 
 homogeneous space $G/P$, which has prime-to-$p$ order. 
 2.  Since $Q$ is a $p$-group, we know that
 $$
-\mid G/P\mid \equiv \mid \mathrm{Fix}_{Q}(G/P)\pmod{p}.
+\vert G/P\vert \equiv \vert \mathrm{Fix}_{Q}(G/P)\pmod{p}.
 $$
 3. Since the left side isn't zero, there must be a coset $kP$ which is stabilized by $Q$.  
 4. This means
