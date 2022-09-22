@@ -90,7 +90,7 @@ $kQk^{-1}$ stabilizes $P$, which means $Q\subset P$.
 
 **Part 3.**
 1. Let $P$ be a Sylow $p$-subgroup and let $P$ act on the set of Sylow $p$-subgroups by conjugation.  
-$P$ fixes $Q$ provided $gQg^{-1}=Q$, or, in other words, if $P\subset N_{G}(Q)$.  
+$P$ fixes $Q$ provided $gQg^{-1}=Q$ for all $g\in P$, or, in other words, if $P\subset N_{G}(Q)$.  
 2. Now $Q$ is also in $N_{G}(Q)$,
 and both $P$ and $Q$ are Sylow $p$-subgroups in $N_{G}(Q)$.  
 3. That means $P$ and $Q$ are conjugate in this group
