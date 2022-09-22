@@ -45,7 +45,7 @@ This reduces the classification problem for finite abelian groups to the classif
 
 ### Groups of order $pq$.
 
-Suppose $G$ has order $pq$ and suppose $p\lt q$.  Let $Q$ be a Sylow $q$ subgroup. The number of such 
+Suppose $G$ has order $pq$ and suppose $p< q$.  Let $Q$ be a Sylow $q$ subgroup. The number of such 
 Sylow $q$ subgroups must be one of $1,p,q,pq$ and must be congruent to $1$ mod $q$.  The only possibility
 is $1$.  Thus $Q$ is a normal subgroup.  Now let $P$ be any Sylow $p$-subgroup.  The intersection $P\cap Q$ is trivial so $PQ$ is a group of order $pq$ and must be $G$. 
 
@@ -75,7 +75,7 @@ only has order $30$.
 a normal subgroup of order $3$ or $G$ is isomorphic to $A_4$.
 
 **Proof:** Let $n_{3}$ be the number of Sylow $3$-subgroups.  If $n_3=1$ we are done.
-The divisors of $12$ are $1,2,3,4,6,12$.  If $n_3\gt 1$ then $n_3=4$.  Therefore the
+The divisors of $12$ are $1,2,3,4,6,12$.  If $n_3> 1$ then $n_3=4$.  Therefore the
 group $G$ permutes the four Sylow $3$-subgroups transitively and this gives us a map
 from $G$ to $S_{4}.  If $P$ is one such Sylow subgroup, the stabilizer of $P$ under this action is its normalizer, which contains
 $P$ and thus has order at least $3$.  But its index must be $4$ since that's the size

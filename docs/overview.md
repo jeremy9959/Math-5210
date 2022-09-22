@@ -18,6 +18,8 @@ has_toc: false
     - [Day Five](notes/Five.md)
     - [Day Six](notes/Six.md)
 - Week 4: [Cauchy and Sylow Theorems; Abelian groups](04-sylow.md) (DF Chapter 4 and 5)
+    - [Day Seven](notes/Seven.md)
+    - [Day Eight](notes/Eight.md)
 - Week 5: [Direct and semi-direct products; applications and classification results](05-products.md) (DF Chapter 5)
 - Week 6: [Rings and ideals](06-rings.md) (DF Chapter 7)
 - Week 7: [Ring morphisms; fraction fields; euclidean and principal idael domains](07-pid.md) (DF Chapter 7 and 8)
