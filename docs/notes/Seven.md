@@ -41,3 +41,4 @@ And it would have to be 1 plus a sum of some subset of 12,12,15,20.  The only wa
 1 or 60.
 
 
+## Discussion of proof of Sylow's theorems
