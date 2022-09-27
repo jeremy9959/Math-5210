@@ -45,3 +45,4 @@ And it would have to be 1 plus a sum of some subset of 12,12,15,20.  The only wa
 See [the main page for this section.](https://jeremy9959.net/Math-5210/04-sylow.html)
 
 
+## Discussion of proof of Sylow's theorems
