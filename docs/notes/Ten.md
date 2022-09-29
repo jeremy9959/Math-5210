@@ -16,7 +16,7 @@ That's not the case.
 
 **Proposition:** If $H$ and $K$ are two groups, and $\phi:K\to \Aut(H)$ is a homomorphism, you can construct the semi-direct product $T=H\rtimes_{\phi}K$.
 If you have an automorphism $\tau\in\Aut(K)$, you can modify $\phi$ by taking $\phi'=\tau\phi$.  The resulting semidirect product
-$T'=H\rtimes_{\phi'}K$ is isomorphic to $T'$. 
+$T'=H\rtimes_{\phi'}K$ is isomorphic to $T$. 
 
 **Proof:**  Indeed, the map
 $$
