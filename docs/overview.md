@@ -21,6 +21,8 @@ has_toc: false
     - [Day Seven](notes/Seven.md)
     - [Day Eight](notes/Eight.md)
 - Week 5: [Direct and semi-direct products; applications and classification results](05-products.md) (DF Chapter 5)
+    - [Day Nine](notes/Nine.md)
+    - [Day Ten](notes/Ten.md)
 - Week 6: [Rings and ideals](06-rings.md) (DF Chapter 7)
 - Week 7: [Ring morphisms; fraction fields; euclidean and principal idael domains](07-pid.md) (DF Chapter 7 and 8)
 - Week 8: [Polynomial rings and unique factorization](08-polynomials.md) (DF Chapter 9)

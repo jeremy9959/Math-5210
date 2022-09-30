@@ -4,6 +4,41 @@ title: Day 10
 nav_order: 5.8
 parent: Course Content
 ---
+## A few more comments on semidirect products.
+
+**Proposition:** The 8-element quaternion group $Q$ is not a semidirect product.
+
+**Proof:** The only normal subgroup of $Q$ is the 2-element subgroup $Z=\lbrace \pm 1\rbrace$.
+The quotient group $Q/Z$ is isomorphic to $\Zn{2}\times\Zn{2}$.  So if $Q$ *were* a semidirect product
+it would have to be a semidirect product of $Z$ with $\Zn{2}\times\Z{2}$.  But that would mean $Q$
+would have a subgroup isomorphic to $\Zn{2}\times\Zn{2}$, so it would have $3$ elements of order $2$ *other than* $\pm 1$.
+That's not the case.
+
+**Proposition:** If $H$ and $K$ are two groups, and $\phi:K\to \Aut(H)$ is a homomorphism, you can construct the semi-direct product $T=H\rtimes_{\phi}K$.
+If you have an automorphism $\tau\in\Aut(K)$, you can modify $\phi$ by taking $\phi'=\tau\phi$.  The resulting semidirect product
+$T'=H\rtimes_{\phi'}K$ is isomorphic to $T$. 
+
+**Proof:**  Indeed, the map
+$$
+f:T'\to T
+$$
+defined by $f(hk)=h\tau(k)$ is an homomorphism:
+$$
+f(t_1t_2)=f(h_1 k_1 h_2 k_2)=f(h_1\phi'_{k_1}(h_2)k_1k_2)=h_{1}\phi'_{k_1}(h_2)\tau(k_1)\tau(k_2)=h_{1}\phi_{\tau(k_1)}(h_2)\tau(k_1)\tau(k_2).
+$$
+On the other hand
+$$
+f(t_1)=h_1\tau(k_1)
+$$
+and
+$$
+f(t_2)=h_2\tau(k_2).
+$$
+Then
+$$
+f(t_1)f(t_2)=h_1\phi_{\tau(k_1)}(h_2)\tau(k_1)\tau(k_2).
+$$
+Since it's bijective, it's an isomorphism.
 ## The fundamental theorem of finitely generated abelian groups
 
 **Theorem:** Let $G$ be a finitely generated abelian group.  Then there is an integer $r\ge 0$
