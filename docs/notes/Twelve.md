@@ -58,10 +58,10 @@ for all $x\in A$.
 
 Examples:
 
-    - integers under divisiblity are partially ordered; powers of a prime $p$ are chains. 
-    - subsets of a set $X$ under inclusion are partially ordered; a chain is a nested sequence of sets. The union
+- integers under divisiblity are partially ordered; powers of a prime $p$ are chains. 
+- subsets of a set $X$ under inclusion are partially ordered; a chain is a nested sequence of sets. The union
     of elements in a chain is an upper bound for the chain.  The whole set $X$ is a maximal element. 
-    - Let $A$ be the set of pairs $(X,f)$ where $X\subset \R$ is open and $f:X\to \R$ is continuous (or differentiable, ...). The relation $(X,f)\le (Y,g)$ if $X\subset Y$ and $g$ restricted to $X$ is $f$. 
+- Let $A$ be the set of pairs $(X,f)$ where $X\subset \R$ is open and $f:X\to \R$ is continuous (or differentiable, ...). The relation $(X,f)\le (Y,g)$ if $X\subset Y$ and $g$ restricted to $X$ is $f$. 
 
 **Zorn's Lemma:** If $A$ is a *nonempty* partially ordered set in which *every chain has an upper bound* then
 $A$ has a maximal element.
