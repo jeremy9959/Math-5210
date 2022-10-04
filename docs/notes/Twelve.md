@@ -57,6 +57,7 @@ either $a\le b$ or $b\le a$.
 for all $x\in A$.
 
 Examples:
+
     - integers under divisiblity are partially ordered; powers of a prime $p$ are chains. 
     - subsets of a set $X$ under inclusion are partially ordered; a chain is a nested sequence of sets. The union
     of elements in a chain is an upper bound for the chain.  The whole set $X$ is a maximal element. 
