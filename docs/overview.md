@@ -24,6 +24,8 @@ has_toc: false
     - [Day Nine](notes/Nine.md)
     - [Day Ten](notes/Ten.md)
 - Week 6: [Rings and ideals](06-rings.md) (DF Chapter 7)
+    - [Day Eleven](notes/Eleven.md)
+    - [Day Twelve](notes/Twelve.md)
 - Week 7: [Ring morphisms; fraction fields; euclidean and principal idael domains](07-pid.md) (DF Chapter 7 and 8)
 - Week 8: [Polynomial rings and unique factorization](08-polynomials.md) (DF Chapter 9)
 - Week 9: [Additional topics on ring theory](09-rings2.md)
