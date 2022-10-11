@@ -78,3 +78,7 @@ Three notable examples:
 Notice that $(\Zn{p})^{*}$ has only two elements of order dividing $2$, because of $x^2\equiv 1\pmod{p}$ then $p\divides (x^2-1)$, so $p\divides (x+1)(x-1)$, so either $x\equiv 1\pmod{p}$
 or $x\equiv -1\pmod{p}$.  If $4\divides (p-1)$ then let $H$ be the Sylow $2$-subgroup of $(\Zn{p})^{*}$.  If $H$ were not cyclic, then there would be too many elements of order $2$ in $H$.
 So $H$ must be cyclic and therefore there is an element of order $4$.
+
+Now suppose that $p\equiv 1\pmod{4}$.  Let $u$ be a solution to $x^2+1\equiv 0\pmod{p}$.  Consider the ideal $I=(p,u+i)\subset \Z[i]$. This is a maximal ideal.
+If $\pi=a+bi$ is a generator of this ideal, then $p=x\pi$.  If $x$ were a unit, then $u+i$ would have to be a multiple of $p$, which it visibly isn't.  Therefore $N(\pi)$ must be $p$.  
+But $N(\pi)=a^2+b^2$, so we've found our representation. 
