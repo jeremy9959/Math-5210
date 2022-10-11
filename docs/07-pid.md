@@ -80,3 +80,31 @@ Then $(m)=R$.  So the only ideals of $R$ containing $(p)$ are $(p)$ and $R$, and
 that an integral domain $R$ is a PID if and only if it has a "Dedekind-Hasse" norm, which is a slightly
 more general type of norm that isn't necessarily positive)
 
+## Unique factorization
+
+**Key Terminology:** Let $R$ be an integral domain. 
+
+1. A non-unit element $x\in R$ is called irreducible if whenever $x=ab$ in $R$, either $a$ or $b$ is a unit.
+2. A non-unit element $x\in R$ is called prime if, whenever $p$ divides $ab$, either $p$ divides $a$ or $p$ divides $b$. Equivalently,
+$p$ is prime if the ideal $pR$ is a prime ideal.
+3. Two elements $a$ and $b$ are called associates in $R$ if there is a unit in $R$ such that $a=bu$. 
+
+**Lemma:** If $R$ is an integral domain, then every prime is irreducible.  If $R$ is a principal ideal domain, then the converse is true. 
+
+**Definition:** A unique factorization domain (UFD) is an integral domain such that every nonzero element $r\in R$ which is not a unit
+is a product
+$$
+r=p_1p_2\cdots p_n
+$$
+where the $p_{i}$ are (not necessarily distinct) irreducible elements of $R$ and, if $r=q_1q_2\cdots q_k$ is another such factorization,
+then there is a rearrangement of the $q_{i}$ so that $q_{i}$ and $p_{i}$ are associates.
+
+**Lemma:** in a UFD, $p$ is prime if and only if it is irreducible. 
+
+**Lemma:** A UFD has greatest common divisors (computed using the factorization into primes as in $\Z$).
+
+**Theorem:** A principal ideal domain is a UFD.
+
+
+
+
