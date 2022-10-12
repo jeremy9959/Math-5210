@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Day 13
-nav_order: 7.4
+title: Day 14
+nav_order: 7.8
 parent: Course Content
 ---
 

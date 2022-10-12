@@ -28,6 +28,8 @@ has_toc: false
     - [Day Twelve](notes/Twelve.md)
 - Week 7: [Ring morphisms; fraction fields; euclidean and principal idael domains](07-pid.md) (DF Chapter 7 and 8)
     - [Day Thirteen](notes/Thirteen.md)
+    - [Day Fourteen](notes/Fourteen.md)
+    - [Euclidean Algorithm](notes/GaussianEuclid.md)
 - Week 8: [Polynomial rings and unique factorization](08-polynomials.md) (DF Chapter 9)
 - Week 9: [Additional topics on ring theory](09-rings2.md)
 - Week 10: [Vector spaces and subspaces](10-vectors.md) (DF Chaper 11)
