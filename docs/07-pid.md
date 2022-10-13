@@ -25,7 +25,7 @@ the map is surjective and its kernel is $I_{1}\cdots I_{k}$.
 Let $R$ be an integral domain.  
 
 **Definition:** Let $\mathbb{N}$ be the natural numbers *starting at zero.* A function $N:R\to \mathbb{N}$
-with $N(0)=0$ is called a norm.  If $N(a)=0\implies a=0$ then $N$ is calledf a positive norm.
+with $N(0)=0$ is called a norm.  If $N(a)=0\implies a=0$ then $N$ is called a positive norm.
 
 **Definition:** $R$ is called a *Euclidean domain* if there is a norm on $R$ such that, given $a,b\in R$,
 with $b\not=0$, there are elements $q$ and $r$ in $R$ such that
