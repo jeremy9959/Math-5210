@@ -53,10 +53,4 @@ def gauss_euclid(x,y):
             a,b=b,r
 
 
-a=int(input("Real Part of A> "))
-b=int(input("Imag Part of A> "))
-c=int(input("Real Part of B> "))
-d=int(input("Imag Part of B> "))
 
-print("GCD is")
-print(gauss_euclid(Gaussian(a,b),Gaussian(c,d)))
