@@ -118,19 +118,3 @@ where $s\ge n+1$. Since $p_1$ divides the product of the $q's$, it must equal on
 so we can cancel $p_1$ from both sides of the equation.  Now $y/p_1$ has a shorter expression as a product
 of irreducibles, so it's expression is unique, and therefore $s=n+1$ and the $q's$ are a rearrangement of the $p's$. 
 
-## Back to the Gaussian integers
-
-The irreducibles in $\Z[i]$ are:
-- $(1+i)$
-- $p\in\Z$ with $p\equiv 3\pmod{4}$
-- $a\pm bi$ where $a^2+b^2=p$ for $p\in Z$ and $p\equiv 1\pmod{4}$.
-
-A positive integer is a sum of two squares if and only if it factors 
-$$
-n=2^k p_1^{e_1}\cdots p_k^{e_k}q_{1}^{f_1}\cdots q_{r}^{f_{r}}
-$$
-where the $p_{i}\equiv 1\pmod{4}$ and the $q_{i}\equiv 3\pmod{4}$ and all the $f_{i}$ are even.
-
-The proof follows from the question of when is $n=N(x)$ for some $x\in \Z[i]$.
-
-

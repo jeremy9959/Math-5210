@@ -4,9 +4,22 @@ title: 8. Polynomial rings and unique factorization
 nav_order: 8
 parent: Course Content
 ---
+## One variable polynomials over a field
+
+
+**Lemma:** If $f(x)\in F[x]$, and $r\in F$, then $f(r)=0$ if and only if $(x-r)$ divides $f$.
+
+**Proposition:** A polynomial of degree $n$ over a field $F$ has at most $n$ roots in $F$.
+
+## Finite subgroups of fields
+
+**Proposition:** Let $U\in F^{\times}$ be a finite subgroup of a field $F$.  Then $U$ is cyclic.
+
+**Corollary:** $\Zn{p}^{\times}$ is cyclic. Note: the number theorists call a generator
+of $\Zn{p}^{\times}$ a *primitive root* modulo $p$.  There are $\phi(p-1)$ primitive roots modulo $p$. 
+
 
 ## More discussions of quadratic rings
-
 
 **Proposition:** (Fermat) A prime number is the sum of two squares if and only if it is $2$ or is congruent to $1$ mod $4$. 
 
@@ -29,3 +42,20 @@ $N(\pi)=3$.  But the equation $x^2+5y^2=3$ has no integer solutions, so there is
 **Proposition:** $\Z[\sqrt{2}]$ is Euclidean with respect to the norm. It has an infinite unit group.
 
 **Proposition:** Let $\rho=e^{2\pi/3}$.  Then $\Z[\rho]$ is Euclidean (and it has six units).
+
+## Back to the Gaussian integers
+
+The irreducibles in $\Z[i]$ are:
+- $(1+i)$
+- $p\in\Z$ with $p\equiv 3\pmod{4}$
+- $a\pm bi$ where $a^2+b^2=p$ for $p\in Z$ and $p\equiv 1\pmod{4}$.
+
+A positive integer is a sum of two squares if and only if it factors 
+$$
+n=2^k p_1^{e_1}\cdots p_k^{e_k}q_{1}^{f_1}\cdots q_{r}^{f_{r}}
+$$
+where the $p_{i}\equiv 1\pmod{4}$ and the $q_{i}\equiv 3\pmod{4}$ and all the $f_{i}$ are even.
+
+The proof follows from the question of when is $n=N(x)$ for some $x\in \Z[i]$.
+
+
