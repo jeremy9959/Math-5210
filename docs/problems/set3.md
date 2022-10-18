@@ -1,6 +1,8 @@
 ---
 layout: default
-nav_exclude: true
+nav_order: 7.9
+title: HW Set 3
+parent: Course Content
 ---
 
 # Problem Set 3
