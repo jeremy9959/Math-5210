@@ -33,7 +33,7 @@ has_toc: false
 - Week 8: [Quadratic Rings](08-polynomials.md) (DF Chapter 7/8 continued)
     - [Day Fifteen](notes/Fifteen.md)
     - [Day Sixteen](notes/Sixteen.md)
-- Week 9: [Additional topics on ring theory](09-rings2.md)
+- Week 9: [Unique Factorization](09-rings2.md)
 - Week 10: [Vector spaces and subspaces](10-vectors.md) (DF Chaper 11)
 - Week 11: [Duality](11-duality.md) (DF Chapter 11)
 - Week 12: [Traces and determinants](12-determinants.md) (DF Chapter 11)
