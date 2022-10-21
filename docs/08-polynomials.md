@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 8. Polynomial rings and unique factorization
+title: 8. Quadratic Rings
 nav_order: 8
 parent: Course Content
 ---
