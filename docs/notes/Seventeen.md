@@ -132,5 +132,11 @@ in $R[x]$, we'd have two factorizations in $K(R)[x]$.  Since $K(R)[x]$ is a PID,
 that these two factorizations are "the same" in $K(R)[x]$ -- they have the same number of terms, and the
 terms can be matched up as associates in $K(R)[x]$.  But two irreducibles can be associates in $K(R)[x]$
 and maybe not in $R[x]$ -- this is another "denominator problem."  So we need to sort that out as well.
+This reduces to the question: suppose $q_1(x)$ and $q_2(x)$ are irreducibles in $K(R)[x]$ that
+are associates.  This means that we can "clear denominators" in $q_1$ and $q_2$ so that
+both are in $R[x]$ and primitive and $q_1(x)=uq_2(x)$ for some $u$ in $K(R)$.  Since $u=a/b$ for
+elements $a$ and $b$ in $R$, this amounts to the equation $bq_1(x)=aq_2(x)$.  But since $q_1$ and $q_2$
+are primitive, the gcd of the coefficients of $bq_1$ is $b$, and of $aq_2$ is $a$, so $a$ and $b$
+are equal up to a unit in $R$ and $q_1$ and $q_2$ are associates in $R[x]$.
 
 Once we're done, we have unique factorization!
