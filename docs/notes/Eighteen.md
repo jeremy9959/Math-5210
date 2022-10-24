@@ -11,7 +11,7 @@ In the proof that $R[x]$ is a UFD if $R$ is one, we need the following fact, whi
 often called "Gauss's Lemma."
 
 **Theorem:** Let $R$ be a UFD.  Then if a polynomial $p(x)\in R[x]$ is irreducible in $K(R)[x]$,
-it is irreducible in $R$.
+it is irreducible in $R[x]$.
 
 If $R=\Z$, then what this is saying is that if a polynomial can be factored in a nontrivial way
 in $\Q[x]$ -- meaning using polynomial factors whose coefficients have denominators -- then it can
