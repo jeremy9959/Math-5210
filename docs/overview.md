@@ -47,6 +47,9 @@ has_toc: false
 - [Set 1: Due September 11, 2022](problems/set1.md)
 - [Comments on Set 1](notes/HW1Comments.md)
 - [Set 2: Due October 2, 2022](problems/set2.md)
+- [Comments on Set 2](notes/HW2comments.pdf)
+- [Set 3: Due October 16, 2022](problems/set3.md)
+- [Comments on Set 3](notes/HW3comments.md)
 
 ## Prelim Exam 
 
