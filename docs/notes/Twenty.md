@@ -41,3 +41,4 @@ with a subspace of $K$.
 2. $f$ is surjective.
 3. $f$ is bijective.
 4. If $v_1,\ldots, v_n$ is a basis of $V$, then $f(v_1),f(v_2),\ldots, f(v_n)$ is a basis of $W$.
+
