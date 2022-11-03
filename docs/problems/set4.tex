@@ -1,0 +1,213 @@
+\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provides euro and other symbols
+\else % if luatex or xelatex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\usepackage{hyperref}
+\hypersetup{
+            pdftitle={HW Set 4},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+
+\title{HW Set 4}
+\date{}
+
+\begin{document}
+\maketitle
+
+\input macros.tex
+
+\hypertarget{homework-set-4}{%
+\subsection{Homework Set 4}\label{homework-set-4}}
+
+\textbf{Instructions:} These problems are due November 20.
+
+\hypertarget{problem-1.}{%
+\subsubsection{Problem 1.}\label{problem-1.}}
+
+In \(\Z[\sqrt{5}]\), the ideal \(\mathbf{p}=(2,1+\sqrt{5})\) is maximal
+(and thus prime), and \(\Z[\sqrt{5}]/\mathbf{p}\) is isomorphic to
+\(\Zn{2}\).
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Show that \(X^3-\sqrt{5}X+1-2\sqrt{5}\) is irreducible mod
+  \(\mathbf{p}\) in \(\Z[\sqrt{5}]\).
+\item
+  Show that \(\mathbf{p}^2=\lbrace a+b\sqrt{5} : \hbox{\)a,b\$ both
+  even\}\rbrace\$.
+\item
+  Show that \(X^4+2(1-\sqrt{5})X^2-6X+3+\sqrt{5}\) is an Eisenstein
+  polynomial in \(\Z[\sqrt{5}][X]\) at the prime \(\mathbf{p}\).
+\item
+  Show that \(X^n-(7+3\sqrt{5})\) is Eisenstein at \(\mathbf{p}\) for
+  every \(n\ge 1\).
+\item
+  If \(n\ge 2\) and \(d\ge 1\), prove that
+  \(X_1^d+X_2^d+\cdots X_n^d-1\) is irreducible in
+  \(\Q[X_1,\ldots, X_n]\). (Hint: For fixed \(d\), use induction on
+  \(n\) and the Eisenstein Criterion in its more general form as in DF
+  Proposition 13 pg. 309.)
+\end{enumerate}
+
+\hypertarget{problem-2.}{%
+\subsubsection{Problem 2.}\label{problem-2.}}
+
+Compute the matrix representation of the following linear maps with
+respect to the indicated ordered basis. In each case the field is
+\(\R\).
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \(V=\C\); \(m:V\to V\) is \(m(x)=(2-i)x\);
+  \(B=\lbrace 1+i,3i\rbrace\).
+\item
+  \(V=\R[x]/(x^3-1)\); \(m:V\to V\) is \(m(v)=xv\);
+  \(B=\lbrace 1,x,x^2\rbrace\).
+\item
+  \(V\) is the space of solutions to the differential equation
+  \(y^{\prime\prime} +y^{\prime}+y=0\); \(m:V\to V\) is \(m(y)=y';\) you
+  choose your basis.
+\end{enumerate}
+
+\hypertarget{problem-3.}{%
+\subsubsection{Problem 3.}\label{problem-3.}}
+
+DF Problem 12 on page 302. This problem constructs an integral domain
+\(R\) which has the property that any \emph{finitely generated} ideal in
+\(R\) is principal; but \(R\) has some ideals which are not finitely
+generated. Such a ring is called a Bezout ring. In such a ring, any two
+elements \(a\) and \(b\) have a gcd \(d\) such that \(ax+by=d\), but you
+don't have unique factorization because the other requirement -- that
+every element is a \emph{finite} product of irreducibles -- fails. In
+the ring you construct in this problem, there is an element \(x\) which
+is not a unit but has roots of arbitrarily high order.
+
+See Theorem 14 in DF on page 287 to see how, in the case when \(R\) is a
+PID (in which \emph{every} ideal is principal, not just the finitely
+generated ones), one has to use Zorn's lemma to prove that every
+non-zero non-unit in \(R\) is a \emph{finite} product of irreducibles.
+
+\hypertarget{problem-4.}{%
+\subsubsection{Problem 4.}\label{problem-4.}}
+
+For \(n\ge 1\), Let \(\Pol_{n}(\R)\) be the space of polynomials with
+real coefficients and degree \emph{at most} \(n\). So \(\Pol_{n}\) is a
+vector space of dimension \(n\) over \(\R\). Let
+\(D:\Pol_{n}(R)\to\Pol_{n}(\R)\) be the map \(\frac{d}{dx}\), let
+\(D^{j}\) be the \(j^{th}\) derivative, and let \(\D_{n}(\R)\) be the
+vector space of linear differential operators in one variable with
+constant coefficients over \(\R\). So an element of \(\D_{n}(\R)\) is a
+polynomial in \(D\) of degree at most \(n\). Note for the sake of
+clarity that \(D^{0}\) is the identity map, so
+
+\[
+(2-D+D^2)(x^3)=2x^3-3x^2+6x
+\]
+
+with the initial \(2\) acting on a polynomial just by multiplication.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  For \(f=a_0+a_1 X+\cdots +a_nX^n\), and \(L=b_0+b_1D+\cdots+b_nD^n\),
+  compute \((Lf)(0)\) in terms of the coefficients of \(f\) and \(L\).
+\item
+  For \(L\in \D_{n}(\R)\), define \(L_{0}:\Pol_{n}(\R)\to\R\) by
+  \(L_{0}(f)=(Lf)(0)\). Show that the map \(L\to L_{0}\) is an
+  isomorphism of vector spaces from \(\D_{n}\) to the dual space
+  \(\Pol_{n}(R)^{\vee}\). (Check the dimension of \(\D_{n}(\R)\); prove
+  the map is linear; check its kernel.)
+\item
+  Find the basis of \(\D_{n}(\R)\) dual to the standard basis
+  \(1,X,\ldots, X^{n}\) of \(\Pol_{n}(\R)\).
+\item
+  Let \(H(f)=f(1)\) and \(G(f)=\int_{0}^{1}f(X) dX\). Both \(H\) and
+  \(G\) are elements of the dual space to \(\Pol_{n}(\R)\) and therefore
+  correspond to elements of \(\D_{n}(\R)\). What are those elements?
+\end{enumerate}
+
+\hypertarget{problem-5.}{%
+\subsubsection{Problem 5.}\label{problem-5.}}
+
+Let \(V\) be a vector space of dimension \(n\) over a field \(F\). A
+\emph{complete flag} in \(V\) is a sequence of subspaces \[
+Z: W_{0}=(0)\subset W_1\subset W_2\subset \cdots \subset W_{n-1}\subset W_{n}=V
+\] where \(W_{i}\) has dimension \(i\). So for example, in \(\R^{3}\),
+one could choose \(W_{1}\) to be the span of the vector \(\mathbf{i}\)
+(the \(x\)-axis) and \(W_{2}\) to be the span of the \(x\) and \(y\)
+axes (the \(xy\)-plane).
+
+The group \(\GL(V)\) acts on the flags in \(V\) by acting on the
+subspaces:
+
+\[
+gZ = gW_{0}=(0)\subset gW_{1}\subset \cdots \subset gW_{n-1}\subset W_{n}=V.
+\]
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Prove that the action of \(\GL(V)\) on the flags is transitive.
+\item
+  Fix a basis \(a_1,\ldots, a_n\) for \(V\) and let \(Z\) be the
+  standard flag where \(W_{0}=0\) and \(W_{i}=\span(a_1,\ldots, a_i)\)
+  for \(i=1,\ldots, n\). Prove that \(g\in \GL(V)\) stabilizes \(Z\) if
+  and only if \(g\) is upper triangular in the matrix representation
+  coming from the choice of basis \(\lbrace a_{i}\rbrace\).
+\item
+  Use the orbit stabilizer theorem for \(\GL(V)\) to give a formula for
+  the number of flags in a vector space of dimension \(n\) over a field
+  with \(q\) elements.
+\item
+  Find the number of flags in the three dimensional vector space over
+  \(\Z/2\Z\).
+\end{enumerate}
+
+\end{document}

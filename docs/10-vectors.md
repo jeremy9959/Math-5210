@@ -126,6 +126,6 @@ $$
 M_{A}^{B}(f)\left[\begin{matrix} x_1 \\ x_2 \\ \vdots \\ x_n\end{matrix}\right] = \left[\begin{matrix} y_1 \\ y_2 \\ \vdots \\ y_{m}\end{matrix}\right]
 $$
 
-**Proposition:** The map sending $f:V\to W$ to $M_{A}^{B}(f)\in M_{m\times n}(F)$ is an isomorphism of vector spaces between $\Hom(V,W)$ and $M_{\mtimes n}(F)$..  If $V=W$ and $A=B$, it is a ring isomorphism
+**Proposition:** The map sending $f:V\to W$ to $M_{A}^{B}(f)\in M_{m\times n}(F)$ is an isomorphism of vector spaces between $\Hom(V,W)$ and $M_{m\times n}(F)$..  If $V=W$ and $A=B$, it is a ring isomorphism
 from $\Hom(V,V)$ to $M_{n}(F)$.
 
