@@ -132,7 +132,7 @@ Let $D$ be the matrix giving the derivative operator on polynomials of degree $n
 Then $G^{-1}DG$ expresses the derivative operator in terms of the basis $f_{i}$. In practice this tells you have who to compute derivatives
 from values of polynomials at chosen points.
 
-See *Inverses of Vandermonde Matrices\ast, by N. Macon and A. Spitzbart, American Math Monthly 1958 vol 65 number 2. 
+See *Inverses of Vandermonde Matrices*, by N. Macon and A. Spitzbart, American Math Monthly 1958 vol 65 number 2. 
 
 ## Duality
 
@@ -168,7 +168,7 @@ However they won't span.
 Suppose $L:V\to W$ is a linear map.  Then there is a "dual map" $L^{\ast}:W^{\ast}\to V^{\ast}$ defined abstractly by setting $((L^*)(f))(v)=f(L(v))$.
 
 **Proposition:** If A is a finite basis for $V$ and $B$ is a finite basis for $W$ then let $A^{\ast}$ and $B^{\ast}$ be the corresponding dual bases.  Then
-$[L^*]_{B^{\ast}}^{A^{\ast}}$ is the transpose of $[L]_{A}^{B}$.
+$[L^\ast]_{B^{\ast}}^{A^{\ast}}$ is the transpose of $[L]_{A}^{B}$.
 
 **Proof:** Consider $b_i^{\ast}$ in $B^{\ast}$.  Then
 $$L^{\ast}(b_{j}^{\ast})(a_{i})=b_{j}^{\ast}(L(a_i))$$ which is the coefficient of $b_{j}$ in the expansion
@@ -209,7 +209,7 @@ by the sup norm.
 
 "Functional Analysis" is the study of possible topologies on vector spaces and their relationship to spaces of linear forms.
 
-### the double dual
+### The double dual
 
 The "Double dual" space $V^{\ast\ast}=\Hom(\Hom(V,F),F)$ is another vector space.  Notice that if $V$ is of dimension $n$ then $V^{\ast\ast}$ is also of dimension $n$.
 But the relationship is closer than that.

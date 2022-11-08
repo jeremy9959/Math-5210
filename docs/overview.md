@@ -37,6 +37,8 @@ has_toc: false
     - [Day Seventeen](notes/Seventeen.md)
     - [Day Eighteen](notes/Eighteen.md)
 - Week 10: [Vector spaces and subspaces](10-vectors.md) (DF Chaper 11)
+    - [Day Nineteen](notes/Nineteen.md)
+    - [Day Twenty](notes/Twenty.md)
 - Week 11: [Duality](11-duality.md) (DF Chapter 11)
 - Week 12: [Traces and determinants](12-determinants.md) (DF Chapter 11)
 - Week 13: [Bilinear forms and the spectral theorem](13-spectral.md) (DF Chapter 11)
