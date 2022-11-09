@@ -168,7 +168,9 @@ However they won't span.
 Suppose $L:V\to W$ is a linear map.  Then there is a "dual map" $L^{\ast}:W^{\ast}\to V^{\ast}$ defined abstractly by setting $((L^*)(f))(v)=f(L(v))$.
 
 **Proposition:** If A is a finite basis for $V$ and $B$ is a finite basis for $W$ then let $A^{\ast}$ and $B^{\ast}$ be the corresponding dual bases.  Then
-$[L^\ast]_{B^{\ast}}^{A^{\ast}}$ is the transpose of $[L]_{A}^{B}$.
+$$
+[L^\ast]_{B^{\ast}}^{A^{\ast}}
+$$ is the transpose of $[L]_{A}^{B}$.
 
 **Proof:** Consider $b_i^{\ast}$ in $B^{\ast}$.  Then
 $$L^{\ast}(b_{j}^{\ast})(a_{i})=b_{j}^{\ast}(L(a_i))$$ which is the coefficient of $b_{j}$ in the expansion
