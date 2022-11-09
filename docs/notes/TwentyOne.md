@@ -67,7 +67,7 @@ $$
 [Gv]_{A} = [v]_{A'}.
 $$
 
-Since $[Gv]_{A}=[G]_{A}^{A}[v]_{A}$ we see that
+Since $$[Gv]_{A}=[G]_{A}^{A}[v]_{A}$$ we see that
 
 $$
 [v]_{A'} = [G]_{A}^{A}[v]_{A}.
