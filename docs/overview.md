@@ -40,6 +40,8 @@ has_toc: false
     - [Day Nineteen](notes/Nineteen.md)
     - [Day Twenty](notes/Twenty.md)
 - Week 11: [Duality](11-duality.md) (DF Chapter 11)
+    - [Day TwentyOne](notes/TwentyOne.md)
+    - [Day TwentyTwo](notes/TwentyTwo.md)
 - Week 12: [Traces and determinants](12-determinants.md) (DF Chapter 11)
 - Week 13: [Bilinear forms and the spectral theorem](13-spectral.md) (DF Chapter 11)
 - Week 14: [Additional topics on linear algebra](14-linear2.md)
