@@ -1,6 +1,6 @@
 ---
 layout: default
-nav_order 11.8
+nav_order: 11.8
 title: Day 22
 parent: Course Content
 ---
