@@ -74,9 +74,9 @@ Three notable examples:
 
 **Lemma:** The congruence $x^2\equiv -1\pmod{p}$ has a solution modulo a prime $p$ if and only if $p=2$ or $p\equiv 1\pmod{4}$. 
 
-**Proof:** If $p=2$, $1$ is a solution.  If $p$ is odd, and $x^2=-1$ has a solution, then $(\Zn{p})^{*}$ has an element of order $4$, so $4\divides (p-1)$. 
+**Proof:** If $p=2$, $1$ is a solution.  If $p$ is odd, and $x^2=-1$ has a solution, then $(\Zn{p})^{\ast}$ has an element of order $4$, so $4\divides (p-1)$. 
 Notice that $(\Zn{p})^{*}$ has only two elements of order dividing $2$, because of $x^2\equiv 1\pmod{p}$ then $p\divides (x^2-1)$, so $p\divides (x+1)(x-1)$, so either $x\equiv 1\pmod{p}$
-or $x\equiv -1\pmod{p}$.  If $4\divides (p-1)$ then let $H$ be the Sylow $2$-subgroup of $(\Zn{p})^{*}$.  If $H$ were not cyclic, then there would be too many elements of order $2$ in $H$.
+or $x\equiv -1\pmod{p}$.  If $4\divides (p-1)$ then let $H$ be the Sylow $2$-subgroup of $(\Zn{p})^{\ast}$.  If $H$ were not cyclic, then there would be too many elements of order $2$ in $H$.
 So $H$ must be cyclic and therefore there is an element of order $4$.
 
 Now suppose that $p\equiv 1\pmod{4}$.  Let $u$ be a solution to $x^2+1\equiv 0\pmod{p}$.  Consider the ideal $I=(p,u+i)\subset \Z[i]$. This is a maximal ideal.
