@@ -89,4 +89,4 @@ Other important properties of the determinant (see DF pgs 438-440):
 
 - There is a (useless in practice) formula for the inverse of a matrix in terms of determinants of submatrices. ("Cramer's Rule")
 
-Although Cramer's rule is useless in practice it has the theoretical consequence that a matrix $M$ over an integral domain is invertible if and only if its determinant is a unit in $R$. It also says that given a matrix $M$ over an integral domain, there is always a matrix $N$ so that $MN=\det(M)I$. git
+Although Cramer's rule is useless in practice it has the theoretical consequence that a matrix $M$ over an integral domain is invertible if and only if its determinant is a unit in $R$. It also says that given a matrix $M$ over an integral domain, there is always a matrix $N$ so that $MN=\det(M)I$. gitgit
