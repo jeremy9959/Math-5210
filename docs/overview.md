@@ -55,6 +55,7 @@ has_toc: false
 - [Set 3: Due October 16, 2022](problems/set3.md)
 - [Comments on Set 3](notes/HW3comments.md)
 - [Set 4: Due November 27, 2022](problems/set4.md)
+- [Comments on Set 4](notes/HW4Comments.md)
 
 ## Exams
 
