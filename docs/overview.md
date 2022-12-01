@@ -54,6 +54,12 @@ has_toc: false
 - [Comments on Set 2](notes/HW2comments.pdf)
 - [Set 3: Due October 16, 2022](problems/set3.md)
 - [Comments on Set 3](notes/HW3comments.md)
+- [Set 4: Due November 27, 2022](problems/set4.md)
+
+## Exams
+
+- [Midterm Take-Home Exam](problems/midterma.md)
+- [Final Take-Home Exam](problems/final.md)
 
 ## Prelim Exam 
 
