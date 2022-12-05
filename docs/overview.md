@@ -43,8 +43,12 @@ has_toc: false
     - [Day TwentyOne](notes/TwentyOne.md)
     - [Day TwentyTwo](notes/TwentyTwo.md)
 - Week 12: [Traces and determinants](12-determinants.md) (DF Chapter 11)
+    - [Day TwentyThree](notes/TwentyThree.md)
 - Week 13: [Bilinear forms and the spectral theorem](13-spectral.md) (DF Chapter 11)
+    - [Day TwentyFour](notes/TwentyFour.md)
+    - [Day TwentyFive](notes/TwentyFive.md)
 - Week 14: [Additional topics on linear algebra](14-linear2.md)
+    - [Day TwentySix](notes/TwentySix.md)
 
 ## Problem Sets
 
