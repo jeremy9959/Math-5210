@@ -43,8 +43,12 @@ has_toc: false
     - [Day TwentyOne](notes/TwentyOne.md)
     - [Day TwentyTwo](notes/TwentyTwo.md)
 - Week 12: [Traces and determinants](12-determinants.md) (DF Chapter 11)
+    - [Day TwentyThree](notes/TwentyThree.md)
 - Week 13: [Bilinear forms and the spectral theorem](13-spectral.md) (DF Chapter 11)
+    - [Day TwentyFour](notes/TwentyFour.md)
+    - [Day TwentyFive](notes/TwentyFive.md)
 - Week 14: [Additional topics on linear algebra](14-linear2.md)
+    - [Day TwentySix](notes/TwentySix.md)
 
 ## Problem Sets
 
@@ -54,6 +58,13 @@ has_toc: false
 - [Comments on Set 2](notes/HW2comments.pdf)
 - [Set 3: Due October 16, 2022](problems/set3.md)
 - [Comments on Set 3](notes/HW3comments.md)
+- [Set 4: Due November 27, 2022](problems/set4.md)
+- [Comments on Set 4](notes/HW4Comments.md)
+
+## Exams
+
+- [Midterm Take-Home Exam](problems/midterma.md)
+- [Final Take-Home Exam](problems/final.md)
 
 ## Prelim Exam 
 
