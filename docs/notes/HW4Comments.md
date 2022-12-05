@@ -89,3 +89,4 @@ $R_M$ is a polynomial ring in $\overline{y}_{M}$ and:
 The only way $y_{m}$ can be a multiple of a polynomial in $y_{m}^{2^{(m-n)}}$ where $m>n$ is if it is a constant, which is not true. 
 
 Therefore the ideal is not finitely generated.
+ 
