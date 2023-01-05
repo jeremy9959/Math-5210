@@ -65,6 +65,7 @@ has_toc: false
 
 - [Midterm Take-Home Exam](problems/midterma.md)
 - [Final Take-Home Exam](problems/final.md)
+- [Comments on the final exam](notes/FinalComments.md)
 
 ## Prelim Exam 
 
